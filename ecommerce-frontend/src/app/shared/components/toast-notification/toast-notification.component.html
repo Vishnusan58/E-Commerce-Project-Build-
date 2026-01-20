@@ -1,0 +1,7 @@
+<div class="alert" [ngClass]="{
+  'alert-success': type === 'success',
+  'alert-danger': type === 'error',
+  'alert-info': type === 'info'
+}">
+  {{ message }}
+</div>
